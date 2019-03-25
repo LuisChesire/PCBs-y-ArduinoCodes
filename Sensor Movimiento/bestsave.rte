@@ -80,89 +80,89 @@
    (Net #00000 
    (rule
    )
-   (wire (path BOT 101600  -2000000 754000 -2286000 754000 -2286000 758000
-     -3500000 758000)
-    (connect (terminal pin REGULADOR-0) (terminal pin J1-1))
+   (wire (path BOT 101600  -3500000 758000 -2946400 758000 -2946400 754000
+     -2250000 754000)
+    (connect (terminal pin J1-1) (terminal pin REGULADOR-0))
    )
    )
    (Net #00001 
    (rule
    )
-   (wire (path BOT 101600  1016000 -254000 660400 -254000 660400 -558800
-     -950000 -558800 -950000 0)
-    (connect (terminal wire) (terminal pin RECEPTOR-0))
+   (wire (path BOT 101600  750000 1250000 750000 1422400 -50000 1422400
+     -50000 1250000)
+    (connect (terminal pin EMISOR-1) (terminal pin RECEPTOR-0))
    )
-   (wire (path BOT 101600  1016000 -254000 1574800 -254000 1574800 0
-     2050000 0)
+   (wire (path BOT 101600  914400 1066800 914400 812800 -1484192 812800
+     -1484192 246000 -2250000 246000)
+    (connect (terminal wire) (terminal pin REGULADOR-2))
+   )
+   (wire (path BOT 101600  914400 1066800 750000 1066800 750000 1250000)
+    (connect (terminal wire) (terminal pin EMISOR-1))
+   )
+   (wire (path BOT 101600  1117600 1066800 914400 1066800)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 101600  1117600 1066800 1117600 1422400 1950000 1422400
+     1950000 1250000)
     (connect (terminal wire) (terminal pin SMOV-0))
    )
-   (wire (path BOT 101600  -950000 0 -1473200 0 -1473200 -101600
-     -3911600 -101600 -3911600 1168400 -1778000 1168400 -1778000 246000
-     -2000000 246000)
-    (connect (terminal pin RECEPTOR-0) (terminal pin REGULADOR-2))
    )
-   (wire (path BOT 101600  1000000 0 1016000 0 1016000 -254000)
-    (connect (terminal pin EMISOR-1) (terminal wire))
-   )
-   )
-   (Net #00003 
+   (Net #00004 
    (rule
    )
-   (wire (path BOT 101600  2302000 750000 2302000 304800 2641600 304800
-     2641600 -304800 2250000 -304800 2250000 0)
-    (connect (terminal pin MICRO-13) (terminal pin SMOV-1))
+   (wire (path BOT 101600  2302000 512000 2302000 660400 1750000 660400
+     1750000 1250000)
+    (connect (terminal pin MICRO-14) (terminal pin SMOV-1))
    )
    )
-   (Net #00012 
+   (Net #00005 
    (rule
    )
-   (wire (path BOT 101600  -492000 750000 -492000 457200 800000 457200
-     800000 0)
-    (connect (terminal pin MICRO-2) (terminal pin EMISOR-0))
+   (wire (path BOT 101600  -250000 1250000 -250000 1422400 -3759200 1422400
+     -3759200 -406400 2489200 -406400 2489200 -101600 1794000 -101600
+     1794000 512000)
+    (connect (terminal pin RECEPTOR-1) (terminal pin MICRO-16))
    )
    )
-   (Net #00013 
+   (Net #00006 
    (rule
    )
-   (wire (path BOT 101600  -746000 750000 -746000 304800 -50800 304800
-     -50800 -254000 -750000 -254000 -750000 0)
-    (connect (terminal pin MICRO-1) (terminal pin RECEPTOR-1))
+   (wire (path BOT 101600  2048000 512000 2048000 355600 2489200 355600
+     2489200 1574800 950000 1574800 950000 1250000)
+    (connect (terminal pin MICRO-15) (terminal pin EMISOR-0))
    )
    )
    (Net GND 
    (rule
    )
-   (wire (path BOT 101600  -1168400 152400 -1168400 1066800 508000 1066800)
-    (connect (terminal wire) (terminal wire))
+   (wire (path BOT 101600  -650000 1250000 -2032000 1250000 -2032000 500000
+     -2250000 500000)
+    (connect (terminal pin RECEPTOR-3) (terminal pin REGULADOR-1))
    )
-   (wire (path BOT 101600  -350000 0 -350000 152400 -1168400 152400)
-    (connect (terminal pin RECEPTOR-3) (terminal wire))
+   (wire (path BOT 101600  -2438400 -101600 -2946400 -101600 -2946400 250000
+     -3500000 250000)
+    (connect (terminal wire) (terminal pin J1-0))
    )
-   (wire (path BOT 101600  -1168400 152400 -1625600 152400 -1625600 50800
-     -2184400 50800 -2184400 254000)
-    (connect (terminal wire) (terminal wire))
+   (wire (path BOT 101600  -2438400 -101600 -2438400 500000 -2250000 500000)
+    (connect (terminal wire) (terminal pin REGULADOR-1))
    )
-   (wire (path BOT 101600  508000 1066800 778000 1066800 778000 750000)
-    (connect (terminal wire) (terminal pin MICRO-7))
-   )
-   (wire (path BOT 101600  -2000000 500000 -2184400 500000 -2184400 254000)
-    (connect (terminal pin REGULADOR-1) (terminal wire))
-   )
-   (wire (path BOT 101600  524000 1512000 524000 1066800 508000 1066800)
-    (connect (terminal pin MICRO-21) (terminal wire))
-   )
-   (wire (path BOT 101600  -3500000 250000 -3500000 254000 -2184400 254000)
-    (connect (terminal pin J1-0) (terminal wire))
-   )
-   (wire (path BOT 101600  2450000 0 2450000 152400 1200000 152400)
-    (connect (terminal pin SMOV-2) (terminal wire))
-   )
-   (wire (path BOT 101600  1200000 152400 1200000 0)
-    (connect (terminal wire) (terminal pin EMISOR-2))
-   )
-   (wire (path BOT 101600  778000 750000 778000 609600 1200000 609600
-     1200000 152400)
+   (wire (path BOT 101600  778000 -250000 778000 -101600 508000 -101600)
     (connect (terminal pin MICRO-7) (terminal wire))
+   )
+   (wire (path BOT 101600  508000 -101600 508000 50800 524000 50800
+     524000 512000)
+    (connect (terminal wire) (terminal pin MICRO-21))
+   )
+   (wire (path BOT 101600  524000 512000 524000 660400 1550000 660400
+     1550000 1250000)
+    (connect (terminal pin MICRO-21) (terminal pin SMOV-2))
+   )
+   (wire (path BOT 101600  508000 -101600 -2438400 -101600)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 101600  550000 1250000 550000 965200 -650000 965200
+     -650000 1250000)
+    (connect (terminal pin EMISOR-2) (terminal pin RECEPTOR-3))
    )
    )
    (Net VCC/VDD 

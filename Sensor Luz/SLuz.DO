@@ -1,4 +1,3 @@
-# Writing all output to: D:\Trabajo Terminal A049\Dise??os PCB\Sensor Movimiento\Mov.log
 set pad_wire_necking on
 bus diagonal
 fanout 10
@@ -8,3 +7,6 @@ route 50 16
 clean 2
 route 50 16
 clean 2
+filter 5
+recorner diagonal
+status_file

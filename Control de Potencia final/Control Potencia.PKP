@@ -1,0 +1,41 @@
+LABCENTER PROTEUS PICK AND PLACE FILE
+=====================================
+
+Component positions for Control Potencia.pdsprj
+
+Fields: Part ID, Value, Package, Stock Code, Layer, Rotation, X, Y
+Units:  Rotation - degrees, X, Y  - mm
+Notes:  The X, Y value is the centre of package as drawn in ARES.
+        The origin for these values is the Output Origin.
+        The values are a guide only and must be checked manually when
+        setting up automatic insertion equipment.
+
+"U1","PC817C","DIL08","",TOP,0,-26.67,-11.43
+"J1","TBLOCK-I2","TBLOCK-I2","",TOP,0,-27.94,0
+"J2","TBLOCK-I2","TBLOCK-I2","",TOP,0,-12.7,0
+"J3","TBLOCK-I2","TBLOCK-I2","",TOP,0,2.54,0
+"R3",".1","RES40","",TOP,0,-10.16,-15.24
+"R14","270","RES40","",TOP,0,-10.16,15.24
+"Q3","PN2222","TO92","",TOP,270,0,-15.24
+"D1","1N4004","DO41","",TOP,0,-25.4,15.24
+"D2","1N4001","DO41","",TOP,0,-25.4,-30.48
+"D3","1N4001","DO41","",TOP,0,-25.4,30.48
+"R4","100k","RES40","",TOP,0,-10.16,30.48
+"R12","10k","RES40","",TOP,0,-10.16,-30.48
+"R13","1k","RES40","",TOP,0,-10.16,-45.72
+"C2","470uF","CAP10","",TOP,0,-29.21,-45.72
+"D4","1N4001","DO41","",TOP,0,-25.4,45.72
+"R9","330","RES40","",TOP,270,15.24,10.16
+"C5","10uF","CAP10","",TOP,90,0,-44.45
+"R2","33","RES40","",TOP,0,-10.16,-60.96
+"C1","2.2uF","CAP10","",TOP,90,15.24,-44.45
+"R5","820","RES40","",TOP,270,30.48,10.16
+"R6","6800","RES40","",TOP,90,15.24,-10.16
+"C3","100uF","CAP10","",TOP,90,-45.72,-44.45
+"R7","47","RES40","",TOP,90,30.48,-10.16
+"R8","330","RES40","",TOP,90,15.24,-25.4
+"Q1","BC547","TO92/18","",TOP,0,0,-29.845
+"C4","1nF","CAP10","",TOP,0,-29.21,-60.96
+"R10","10k","RES40","",TOP,90,30.48,-25.4
+"R11","47K","RES40","",TOP,180,25.4,0
+"Q2","BC547","TO92/18","",TOP,0,0,-60.325

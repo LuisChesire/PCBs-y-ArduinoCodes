@@ -1,4 +1,3 @@
-# Writing all output to: D:\Trabajo Terminal A049\Dise??os PCB\Control de Potencia final\Control Potencia.log
 set pad_wire_necking on
 bus diagonal
 fanout 10
@@ -11,4 +10,3 @@ clean 2
 filter 5
 recorner diagonal
 status_file
-

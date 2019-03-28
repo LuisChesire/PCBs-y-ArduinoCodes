@@ -1,8 +1,8 @@
 #include<VirtualWire.h>
 
-const int Emi=9;
-const int Res=8;
-const int Sen=7;
+const int Emi=11;
+const int Res=10;
+const int Sen=9;
 
 void setup()
 {

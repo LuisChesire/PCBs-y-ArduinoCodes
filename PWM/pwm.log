@@ -1,4 +1,4 @@
-# Writing all output to: D:\Trabajo Terminal A049\Dise??os PCB\Control de Potencia final\Control Potencia.log
+# Writing all output to: D:\Trabajo Terminal A049\Dise??os PCB\PWM\pwm.log
 set pad_wire_necking on
 bus diagonal
 fanout 10
